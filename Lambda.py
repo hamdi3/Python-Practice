@@ -33,7 +33,7 @@ def count (str):
 print(count("Hello This Is a Test"))
 #4. Einzigartige Zahl in einer Liste (while trying to use set())h 
 uniqe = lambda lst : list(set(lst)) #a set is like a dic but without indxs and without repeataions. 
-np?r i-fnbzvnfääl?uint(uniqe([1,2,3,3,3,4,4]))
+np.array(uniqe([1,2,3,3,3,4,4]))
 #5. Alle Zahlen einer Liste multiplizieren (i was yet again unable to use a for-statment in a lambda)
 def lstmul(lst):
     mul=1
